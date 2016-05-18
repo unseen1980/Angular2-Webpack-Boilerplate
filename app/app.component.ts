@@ -1,5 +1,5 @@
-import {Component} from 'angular2/core';
-import {TestInput} from './test-input';
+import { Component } from '@angular/core';
+import { TestInput } from './test-input';
 
 @Component({
   selector: 'my-app',

@@ -1,12 +1,12 @@
-import {Component} from 'angular2/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'test-input',
   templateUrl: 'form.html'
 })
 export class TestInput {
-model;
-  onClick(val) {
+model: any;
+  onClick() {
     if (this.model !== '') {
       console.log(this.model);
       this.model = '';
