@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'test-input',
-  templateUrl: 'form.html'
+  templateUrl: 'test-input.html'
 })
 export class TestInput {
 model: any;

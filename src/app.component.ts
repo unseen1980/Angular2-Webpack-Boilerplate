@@ -3,7 +3,6 @@ import { TestInput } from './test-input';
 
 @Component({
   selector: 'my-app',
-  directives: [TestInput],
-  templateUrl: 'main.html'
+  templateUrl: 'app.component.html'
 })
 export class AppComponent { }
