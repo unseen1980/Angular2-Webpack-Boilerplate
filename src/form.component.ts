@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'test-input',
-  templateUrl: 'test-input.html'
+  selector: 'input-form',
+  templateUrl: 'form.component.html'
 })
-export class TestInput {
+export class InputForm {
 model: any;
   onClick() {
     if (this.model !== '') {
